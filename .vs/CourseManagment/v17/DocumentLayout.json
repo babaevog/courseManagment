@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\js\\c#\\courseManagment\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|d:\\js\\c#\\coursemanagment\\coursemanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|solutionrelative:coursemanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|d:\\js\\c#\\coursemanagment\\coursemanagment\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|solutionrelative:coursemanagment\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|d:\\js\\c#\\coursemanagment\\coursemanagment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|solutionrelative:coursemanagment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|d:\\js\\c#\\coursemanagment\\coursemanagment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1B9C916-D5CC-42D0-8A9D-96F52EE23BCD}|CourseManagment\\CourseManagment.csproj|solutionrelative:coursemanagment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 227,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\js\\c#\\courseManagment\\CourseManagment\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "CourseManagment\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\js\\c#\\courseManagment\\CourseManagment\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "CourseManagment\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAADgN4PL4VgpwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:57:16.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\js\\c#\\courseManagment\\CourseManagment\\appsettings.json",
+              "RelativeDocumentMoniker": "CourseManagment\\appsettings.json",
+              "ToolTip": "D:\\js\\c#\\courseManagment\\CourseManagment\\appsettings.json",
+              "RelativeToolTip": "CourseManagment\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T15:56:32.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\js\\c#\\courseManagment\\CourseManagment\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "CourseManagment\\Models\\Course.cs",
+              "ToolTip": "D:\\js\\c#\\courseManagment\\CourseManagment\\Models\\Course.cs",
+              "RelativeToolTip": "CourseManagment\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:56:17.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\js\\c#\\courseManagment\\CourseManagment\\Program.cs",
+              "RelativeDocumentMoniker": "CourseManagment\\Program.cs",
+              "ToolTip": "D:\\js\\c#\\courseManagment\\CourseManagment\\Program.cs",
+              "RelativeToolTip": "CourseManagment\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:52:48.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
