@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\CourseManagment\\CourseManagment\\CourseManagment.csproj": {}
+    "D:\\js\\c#\\courseManagment\\CourseManagment\\CourseManagment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\CourseManagment\\CourseManagment\\CourseManagment.csproj": {
+    "D:\\js\\c#\\courseManagment\\CourseManagment\\CourseManagment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CourseManagment\\CourseManagment\\CourseManagment.csproj",
+        "projectUniqueName": "D:\\js\\c#\\courseManagment\\CourseManagment\\CourseManagment.csproj",
         "projectName": "CourseManagment",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CourseManagment\\CourseManagment\\CourseManagment.csproj",
+        "projectPath": "D:\\js\\c#\\courseManagment\\CourseManagment\\CourseManagment.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CourseManagment\\CourseManagment\\obj\\",
+        "outputPath": "D:\\js\\c#\\courseManagment\\CourseManagment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
