@@ -7,5 +7,6 @@ namespace CourseManagment.Data
 	{
 		public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options) { }
 		public DbSet<Course> Courses { get; set; }
+		public DbSet<User> Users { get; set; }
 	}
 }
