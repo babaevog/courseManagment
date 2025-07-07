@@ -12,6 +12,6 @@ namespace CourseManagment.Models
 		public string PasswordHash { get; set; }
 		[Required, EmailAddress]		
 		public string Email { get; set; }
-		public string Role { get; set; } = "User";
+		public string Role { get; set; } = "Student";
 	}
 }

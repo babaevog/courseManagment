@@ -14,17 +14,17 @@ namespace EventPlaner.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
+	[Authorize]
 	public class CoursesController : ControllerBase
 	{
-		private readonly CourseContext _context;
+		private readonly ApplicationDBContext _context;
 
-		public CoursesController(CourseContext context)
+		public CoursesController(ApplicationDBContext context)
 		{
 			_context = context;
 		}
 
 		[HttpGet]
-		[Authorize]
 		public async Task<ActionResult<IEnumerable<Course>>> GetCourses(bool? isActive = null)
 		{
 			var query = _context.Courses.AsQueryable();
@@ -36,7 +36,6 @@ namespace EventPlaner.Controllers
 		}
 
 		[HttpGet("{id}")]
-		[Authorize]
 		public async Task<ActionResult<Course>> GetCourseById(int id)
 		{
 			var course = await _context.Courses.FindAsync(id);
@@ -49,7 +48,6 @@ namespace EventPlaner.Controllers
 
 
 		[HttpGet("Filtered")]
-		[Authorize]
 		public async Task<ActionResult<IEnumerable<Course>>> GetFilteredCourses(
 			bool? isActive = null,
 			DateTime? startDate = null,
