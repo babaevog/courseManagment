@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 
 namespace CourseManagment.DTOs
 {
@@ -10,5 +11,6 @@ namespace CourseManagment.DTOs
 		public string Email { get; set; }
 		[Required, MinLength(6)]
 		public string Password { get; set; }
+		public string Role { get; set; } = "Student";
 	}
 }

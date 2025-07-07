@@ -15,5 +15,9 @@ namespace CourseManagment.Models
 		[Required(ErrorMessage = "Course end date is required")]
 		public DateTime EndDate { get; set; }
 		public bool isActive { get; set; }
+
+		public int CategoryId { get; set; }
+		//связь с категорией
+		public Category Category { get; set; }
 	}
 }
